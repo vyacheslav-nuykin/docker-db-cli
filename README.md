@@ -54,7 +54,7 @@ For maximum speed, use the included batch scripts:
 | Script | Action |
 |--------|--------|
 | `run-postgre-dev.bat` | Starts PostgreSQL dev container |
-| `stop-postgre-dev.bat` | Stops and removes it |
+| `stop-and-remove-postgre-dev.bat` | Stops and removes it |
 
 > 💡 Edit these files to match your preferred credentials.
 
@@ -117,11 +117,11 @@ pyinstaller --onefile core.py
 
 ```
 .
-├── core.py                 # CLI entrypoint (pure, no GUI)
-├── gui.py                  # Optional PyQt6 GUI (profiles via YAML)
-├── run-postgre-dev.bat     # Example dev script (Windows)
-├── stop-postgre-dev.bat    # Stop script
-└── README.md               # This file
+├── core.py                            # CLI entrypoint (pure, no GUI)
+├── gui.py                             # Optional PyQt6 GUI (profiles via YAML)
+├── run-postgre-dev.bat                # Example dev script (Windows)
+├── stop-and-remove-postgre-dev.bat    # Stop script
+└── README.md                          # This file
 ```
 
 > The GUI stores profiles in `~/.docker-db/profiles/*.yaml` (optional).
