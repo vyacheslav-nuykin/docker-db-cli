@@ -123,6 +123,8 @@ pyinstaller --onefile core.py
 ├── gui.py                             # Optional PyQt6 GUI (profiles via YAML)
 ├── run-postgre-dev.bat                # Example dev script (Windows)
 ├── stop-and-remove-postgre-dev.bat    # Stop script
+├── run-postgre-dev.sh                 # Starts PostgreSQL dev container
+├── stop-and-remove-postgre-dev.sh     # Stops and removes it
 └── README.md                          # This file
 ```
 
