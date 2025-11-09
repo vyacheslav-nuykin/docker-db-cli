@@ -55,6 +55,8 @@ For maximum speed, use the included batch scripts:
 |--------|--------|
 | `run-postgre-dev.bat` | Starts PostgreSQL dev container |
 | `stop-and-remove-postgre-dev.bat` | Stops and removes it |
+| `run-postgre-dev.sh` | Starts PostgreSQL dev container |
+| `stop-and-remove-postgre-dev.sh` | Stops and removes it |
 
 > 💡 Edit these files to match your preferred credentials.
 
